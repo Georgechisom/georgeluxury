@@ -10,7 +10,7 @@ const Productlist = () => {
         <div className="mb-10">
             <div className="flex items-center justify-between">
                 <Title text='Best Selling Products' />
-                <Link to='/product' className='md:inline-flex duration-200 relative overflow-hidden group mt-3 text-skyText font-semibold'>
+                <Link to='/product' className='md:inline-flex duration-200 relative overflow-hidden group mt-3 text-skyText font-semibold text-base md:text-lg'>
                     View All Products
                     <span className='absolute bottom-0 left-0 w-full block h-[1px] bg-skyText -translate-x-[100%] group-hover:translate-x-0 duration-300'/>
                 </Link>

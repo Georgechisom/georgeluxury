@@ -10,7 +10,7 @@ const Categories = () => {
         <div className="mb-10">
             <div className="flex item-center justify-between text-skyText">
                 <Title text='Popular Categories' />
-                <Link to={'/category/tvAndAudio'} className='md:inline-flex font-medium duration-200 relative overflow-hidden group mt-3'>
+                <Link to={'/category/tvAndAudio'} className='md:inline-flex font-medium duration-200 relative overflow-hidden group mt-3 text-base md:text-lg'>
                     View All Categories{" "}
                     <span className='absolute bottom-0 left-0 w-full block h-[1px] bg-skyText -translate-x-[100%] group-hover:translate-x-0 duration-300'/>
                 </Link>

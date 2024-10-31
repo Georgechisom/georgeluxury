@@ -14,6 +14,7 @@ import Orders from "./pages/Orders";
 import Blog from "./pages/Blog";
 import App from "./App";
 import Layout from "./ui/Layout";
+import MyRoute from "./components/RouterPage";
 
 const RouterLayout = () => {
   return (
@@ -30,6 +31,10 @@ const router = createBrowserRouter([{
     {
       path: "/", 
       element: <App />,   
+    },
+    {
+      path: "/myroute", 
+      element: <MyRoute />,   
     },
     {
       path: "/product", 

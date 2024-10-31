@@ -4,7 +4,7 @@ const cat = {
     airPod: "airPod",
     powerTools: "powerTools",
     headphones: "headphones",
-    cellPhones: "cellPhones",
+    MobilePhones: "cellPhones",
     smartWatches: "smartWatches",
     gameAndVideo: "gameAndVideo",
     robotClean: "robotClean",
@@ -134,7 +134,7 @@ const cat = {
     {
       _id: 4001,
       image: "https://i.ibb.co/XbQf5HS/blogOne.webp",
-      title: "iPhone 15 rear camera design will be available",
+      title: "Lastest Smart Phones is available at an affordable price",
       _base: "Technology",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae minus atque ratione. Sequi eos aspernatur delectus officia nemo ipsum facere debitis fugiat eum, quod quia, eligendi nihil sapiente perferendis modi quisquam reiciendis minima esse dolorem, molestias aut? Eum, repudiandae sit ipsum officiis unde reprehenderit inventore odio doloremque recusandae nobis voluptatem ipsa atque, veritatis adipisci reiciendis.",
@@ -142,15 +142,15 @@ const cat = {
     {
       _id: 4002,
       image: "https://i.ibb.co/wzNpcwp/blogTwo.webp",
-      title: "Setup your surround sound speaker",
-      _base: "Samrt thing",
+      title: "Configure your smart watch and check your health status",
+      _base: "Smart Action",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae minus atque ratione. Sequi eos aspernatur delectus officia nemo ipsum facere debitis fugiat eum, quod quia, eligendi nihil sapiente perferendis modi quisquam reiciendis minima esse dolorem, molestias aut? Eum, repudiandae sit ipsum officiis unde reprehenderit inventore odio doloremque recusandae nobis voluptatem ipsa atque, veritatis adipisci reiciendis.",
     },
     {
       _id: 4003,
       image: "https://i.ibb.co/prdZ3s8/blog-Three.webp",
-      title: "Hook up a receiver for your home theater",
+      title: "Hook up a receiver for your home theater and enjoy every moment",
       _base: "Life style",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae minus atque ratione. Sequi eos aspernatur delectus officia nemo ipsum facere debitis fugiat eum, quod quia, eligendi nihil sapiente perferendis modi quisquam reiciendis minima esse dolorem, molestias aut? Eum, repudiandae sit ipsum officiis unde reprehenderit inventore odio doloremque recusandae nobis voluptatem ipsa atque, veritatis adipisci reiciendis.",

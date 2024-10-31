@@ -19,7 +19,7 @@ const links = [
   },
   {
     name: "My Account",
-    href: "/account",
+    href: "/profile",
     description: "View and edit your information here",
     icon: HiBookmarkSquare
   },
