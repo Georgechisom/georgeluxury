@@ -23,7 +23,7 @@ const Header = () => {
   const [searchText, setSearchText] = useState("");
   
   return (
-    <div className='w-full bg-whiteText sticky md:top-0 z-50'>
+    <div className='w-full bg-whiteText sticky lg:sticky md:sticky sm:sticky sm:left-0 sm:right-0 md:top-0 z-50'>
         <div className='max-w-screen-xl mx-auto h-20 flex items-center justify-between px-4 lg:px-0'>
             {/* logo */}
             <Link to={"/"}>

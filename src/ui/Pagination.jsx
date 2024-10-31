@@ -8,7 +8,7 @@ import { products } from "../constants/Index";
 
 const Items = ({ currentItems } = {currentItems: ProductProps }) => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 stioff">
       {currentItems &&
         currentItems?.map((item = ProductProps) => (
           <ProductCard key={item?._id} item={item} />
@@ -47,7 +47,7 @@ const Pagination = () => {
           previousLabel=""
           pageLinkClassName="w-9 h-9 border[1px] border-lightColor hover:border-skyText duration-300 flex justify-center items-center"
           pageClassName="mr-6"
-          containerClassName="flex text-base font-semibold py-10"
+          containerClassName="flex text-base font-semibold py-10 text-skyText"
           activeClassName="bg-skyText text-white"
         />
         <p className="text-skyText">
