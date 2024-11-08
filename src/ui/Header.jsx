@@ -85,7 +85,7 @@ const Header = () => {
                           key={item?.id}
                       >
                           <Link 
-                            to={`/catergory/${item?._base}`}
+                            to={`/category/${item?._base}`}
                             className='flex w-full items-center gap-2 rounded-lg py-2 px-3 data-[focus]:bg-white/50 tracking-wide'
                           >
                             <img src={item?.image} alt="categoryImage" className='w-6 h-6 rounded-md'/>
